@@ -1,6 +1,6 @@
-declare module '#app' {
-    interface PageMeta {
-        pageKey?: string
+declare module 'vue-router' {
+    interface RouteMeta {
+        pageKey: string
     }
 }
   
